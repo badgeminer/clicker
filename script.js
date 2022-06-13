@@ -10,7 +10,3 @@ function c() {
 
 
 
-
-while (true) {
-  // code block to be executed
-}
