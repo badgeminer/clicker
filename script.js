@@ -10,3 +10,11 @@ function c() {
 
 
 
+function start() {
+  setInterval(tick, 1000)
+}
+
+function tick() {
+  Game.count += Game.cps
+  document.getElementById("count").innerHTML = Game.count;
+}
