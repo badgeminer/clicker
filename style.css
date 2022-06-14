@@ -28,3 +28,6 @@ html, body {
   left: 60%;
 
 }
+#prs {
+  object-fit: cover;
+}
