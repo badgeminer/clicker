@@ -13,5 +13,18 @@ html, body {
   width: 90px;
 }
 .items {
-  
+  display: inline;
+}
+#left {
+  position: absolute;
+}
+#center {
+  position: absolute;
+  left: 30%;
+
+}
+#right {
+  position: absolute;
+  left: 60%;
+
 }

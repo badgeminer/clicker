@@ -10,12 +10,16 @@
 </head>
 
 <body onload="start()">
-  <button id="b" onclick="c()"><img id="saw" src="https://1710-wiki.terrafirmacraft.com/images/a/a6/Grid_Red_Steel_Saw.png"/></button>
+  <div id="left">
+  <button id="b" onclick="c()"><img id="saw" src="saw.png"/></button><br>
   <span>
-  <p id="count">0</p> <p id="cps">0</p>
+  <span><img src="log.png"><p id="count" class="items">0</p></span> <p id="cps" class="items">0</p>
   </span>
+  </div>
+  <div id="center"><img src="prestigeBar.jpg" id="prs" height="8"></div>
+  <div id="right">
   <button id="p" class="product enabled" onclick="buy(1,2)">Smiths</button>
-  
+  </div> 
 </body>
 
 </html>
