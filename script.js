@@ -5,7 +5,12 @@ function c() {
   Game.count += 1
   document.getElementById("count").innerHTML = Game.count;
 }
-
+function buy(cps,cost) {
+  Game.cps += cps
+  Game.count -= cost
+  document.getElementById("cps").innerHTML = Game.count;
+  document.getElementById("count").innerHTML = Game.cps;
+}
 
 
 
