@@ -1,0 +1,1 @@
+curl "https://1710-wiki.terrafirmacraft.com/images/f/f7/Grid_Topaz.png" -o ~/clicker/gem.png

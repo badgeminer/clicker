@@ -10,13 +10,23 @@
 </head>
 
 <body onload="start()">
+  
   <div id="left">
-  <button id="b" onclick="c()"><img id="saw" src="Saw.png"/></button><br>
+  <button id="b" onclick="c()"><img id="axe" class="tool" src="Axe.png"/></button><br>
   <span>
-  <span><img src="Log.png"><p id="count" class="items">0</p></span> <span><img src="Log.png"><p class="items">/s </p><p id="cps" class="items">0</p>
+  <span><img src="Log.png"><p id="count" class="items">0</p></span>
+    <span><img src="Log.png"><p class="items">/s </p><p id="cps" class="items">0</p>
   </span></span>
   </div>
-  <div id="center"><img src="prestigebar.jpg" id="prs" height="8"></div>
+
+  
+  <div id="center">
+    <img src="prestigebar.jpg" id="prs" height="8"><br>
+    <span>
+      <img src="Gem.png">
+      <p id="gems" class="items">0</p>
+    </span>
+  </div>
 
   
   <div id="right">
@@ -28,3 +38,5 @@
 </body>
 
 </html>
+
+

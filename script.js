@@ -21,6 +21,7 @@ function draw() {
   document.getElementById("count").innerHTML = Game.count;
   document.getElementById("prs").width = (Game.count/Game.prs)*Game.prsW;
   //console.log((Game.count/Game.prs)*Game.prsW)
+  
 }
 
 
@@ -31,5 +32,9 @@ function start() {
 
 function tick() {
   Game.count += Game.cps
+  if (Game.count >=Game.prs) {
+    Game.count -= Game.prs
+    
+  }
   draw()
 }
