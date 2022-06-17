@@ -31,3 +31,7 @@ html, body {
 #prs {
   object-fit: cover;
 }
+.sold {
+  height: 0px;
+  width: 0px;
+}
